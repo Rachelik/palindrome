@@ -5,8 +5,10 @@ import (
 	"strings"
 )
 
+// reduce the previous time by half. Did not use any slice.
+// case-insensitive
 func main() {
-	givenword := "leel"
+	givenword := "level"
 	word := strings.ToLower(givenword)
 	var check bool
 
